@@ -149,3 +149,40 @@ class LinkedList {
 }
 
 module.exports = LinkedList;
+
+
+
+
+// class Node {
+//   constructor(value) {
+//     this.value = value;
+//     this.prev = null;
+//     this.next = null;
+//   }
+// }
+
+// class DoublyLinkedList {
+//   constructor(vals = []) {
+//     this.head = null;
+//     this.tail = null;
+//     this.length = 0;
+
+//     for (let val of vals) this.push(val);
+//   }
+
+//   push(value) {
+//     const newNode = new Node(value);
+
+//     if (this.length === 0) {
+//       this.head = newNode;
+//       this.tail = newNode;
+//     } else {
+//       this.tail.next = newNode;
+//       newNode.prev = this.tail;
+//       this.tail = newNode;
+//     }
+
+//     this.length++;
+//   }
+
+// }
